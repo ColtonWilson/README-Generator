@@ -1,5 +1,5 @@
-# Project Title
-![License Badge](https://shields.io/badge/license-GNU AGPLv3-green)
+# Colton Project
+![License Badge](https://shields.io/badge/license-Boost_1.0-lightblue)
 ## Table of Contents
 1. [Description](#description)
 2. [Installation](#installation)
@@ -10,17 +10,17 @@
 7. [Questions](#questions)
 
 ## Description
-Project Description
+This is the Description
 ## Installation
-
+This is the Installation
 ## Usage
-
+This is Usage
 ## Contributing
-
+This is contribution
 ## Tests
-
+This is a test
 ## License
-Please see https://www.gnu.org/licenses/agpl-3.0.html to get detailed information for this license
+Please see https://www.boost.org/LICENSE_1_0.txt to get detailed information for this license
 
 ## Questions
 You can find me [HERE](https://github.com/ColtonWilson) on Github

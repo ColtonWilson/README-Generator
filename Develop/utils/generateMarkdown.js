@@ -2,9 +2,45 @@
 // If there is no license, return an empty string
 function renderLicenseBadge(license) {
   let badge = "";
+  let updateLicense = "";
+  let color = "";
 
-  if(license != "None" || license != "N/A" || license != " ") {
-    badge = "![License Badge](https://shields.io/badge/license-" + license + "-green)";
+  switch(license){
+    case 'GNU AGPLv3':
+      updateLicense = 'AGPL_v3';
+      color = 'blue';
+    break;
+    case 'GNU GPLv3':
+      updateLicense = 'GPLv3';
+      color = 'blue';
+    break;
+    case 'GNU LGPLv3':
+      updateLicense = 'LGPL_v3';
+      color = 'blue';
+    break;
+    case 'Mozilla Public License 2.0':
+      updateLicense = 'MPL_2.0';
+      color = 'brightgreen';
+    break;
+    case 'Apache License 2.0':
+      updateLicense = 'Apache_2.0';
+      color = 'blue';
+    break;
+    case 'MIT License':
+      updateLicense = 'MIT';
+      color = 'yellow';
+    break;
+    case 'Boost Software License 1.0':
+      updateLicense = 'Boost_1.0';
+      color = 'lightblue';
+    break;
+    default:
+    updateLicense = "None";
+    color = 'black';
+  }
+
+  if(license != "None") {
+    badge = "![License Badge](https://shields.io/badge/license-" + updateLicense + "-" + color + ")";
   }
 
   return badge;
