@@ -45,7 +45,7 @@ For a quick and easy way to create a README for any github repository.
 ## Contributing
 Submit bug and feature requests
 ## Tests
-No tsts were written for this project
+No tests were written for this project
 ## License
 Please see https://mit-license.org/ to get detailed information for this license
 
