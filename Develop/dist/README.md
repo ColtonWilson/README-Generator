@@ -1,6 +1,9 @@
-# Colton Project
-![License Badge](https://shields.io/badge/license-Boost_1.0-lightblue)
+# README-Generator
+
+![License Badge](https://shields.io/badge/license-MIT-yellow)
+
 ## Table of Contents
+
 1. [Description](#description)
 2. [Installation](#installation)
 3. [Usage](#usage)
@@ -10,18 +13,30 @@
 7. [Questions](#questions)
 
 ## Description
-This is the Description
+
+User is able to quickly and easily generate a README file by using a command line application to generate one from a user's input. This application is using the inquirer package which can be found here. The application will be installed with npm i inquirer@8.2.4 and invoked with node index.js
+
 ## Installation
-This is the Installation
+
+After cloning this project use:npm i inquirer@8.2.4 and then node index.js
+
 ## Usage
-This is Usage
+
+For a quick and easy way to create a README for any github repository.
+
 ## Contributing
-This is contribution
+
+Submit bug and feature requests
+
 ## Tests
-This is a test
+
+No tsts were written for this project
+
 ## License
-Please see https://www.boost.org/LICENSE_1_0.txt to get detailed information for this license
+
+Please see https://mit-license.org/ to get detailed information for this license
 
 ## Questions
+
 You can find me [HERE](https://github.com/ColtonWilson) on Github
 You can email me at colton_wilson93@yahoo.com if you have any additional questions.
