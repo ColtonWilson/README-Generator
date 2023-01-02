@@ -16,7 +16,7 @@ User is able to quickly and easily generate a README file by using a command lin
 <br>
 Video of how the command line works:
 <br>
-![Video of commandline](https://github.com/ColtonWilson/README-Generator/blob/main/video.gif)
+![Video of commandline](https://github.com/ColtonWilson/README-Generator/blob/main/Video.gif)
 <br>
 <br>
 Below is an example of what the command line will look like:
